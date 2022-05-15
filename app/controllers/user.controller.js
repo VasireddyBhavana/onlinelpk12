@@ -11,5 +11,5 @@ exports.allAccess = (req, res) => {
   };
   
   exports.teacherBoard = (req, res) => {
-    res.status(200).send("Teacher Content.");
+    res.status(200).send(true);
   };
